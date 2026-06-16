@@ -251,6 +251,7 @@ button .fas {
   color: #333;
   margin-bottom: 15px;
   display: none;
+  background-color: #d1ebff;
 }
 
 .success-message {
