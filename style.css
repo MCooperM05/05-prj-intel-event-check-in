@@ -25,7 +25,8 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       135deg,
       rgba(0, 153, 219, 0.9) 0%,
       rgba(0, 104, 181, 0.9) 50%,
@@ -251,7 +252,7 @@ button .fas {
   color: #333;
   margin-bottom: 15px;
   display: none;
-  background-color: #d1ebff;
+  /* background-color: #d1ebff; */
 }
 
 .success-message {
@@ -347,6 +348,51 @@ select {
   font-size: 15px;
   font-weight: 500;
   color: #475569;
+}
+
+.attendee-list {
+  margin-top: 24px;
+  text-align: left;
+}
+
+.attendee-list h4 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #334155;
+  margin-bottom: 14px;
+}
+
+.attendee-list-items {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.attendee-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+.attendee-item-name {
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.attendee-item-team {
+  font-size: 13px;
+  color: #475569;
+  background-color: #e2e8f0;
+  padding: 6px 10px;
+  border-radius: 9999px;
+  white-space: nowrap;
 }
 
 /* Mobile responsive */
